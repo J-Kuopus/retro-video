@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/retro-video/static/css/main.804f8ffe.css",
+    "main.js": "/retro-video/static/js/main.5fad20f3.js",
+    "static/media/vhs-pic-sm.jpg": "/retro-video/static/media/vhs-pic-sm.1674bd2919742e716af2.jpg",
+    "static/media/rv-logo.png": "/retro-video/static/media/rv-logo.5d0d26fee78bcc149fa7.png",
+    "index.html": "/retro-video/index.html",
+    "main.804f8ffe.css.map": "/retro-video/static/css/main.804f8ffe.css.map",
+    "main.5fad20f3.js.map": "/retro-video/static/js/main.5fad20f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.804f8ffe.css",
+    "static/js/main.5fad20f3.js"
+  ]
+}
