@@ -1,0 +1,93 @@
+.movie-view {
+    line-height: 30px;
+    margin-top: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.movie-info {
+    padding: 24px;
+    box-shadow: 4px 4px 6px #333;
+    text-align: center;
+}
+
+.movie-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.movie-poster {
+    width: 28rem;
+    height: auto;
+    border-radius: 5px;
+}
+
+.back-arrow {
+    font-size: 40px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 22px;
+    border-radius: 50%;
+}
+
+.back-arrow:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    color: #333;
+    background-color: #fff;
+}
+
+.fav-button {
+    width: 240px;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.info-list {
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+@media all and (max-width: 992px) {
+    .img-wrapper {
+        padding-top: 30px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .movie-poster {
+        width: 24rem;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .movie-poster {
+        width: 20rem;
+    }
+    
+    .movie-info {
+        padding: 18px;
+    }
+}
+
+@media all and (max-width: 410px) {
+    .movie-poster {
+        width: 18rem;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .movie-poster {
+        width: 16rem;
+    }
+}
+
+
+
+
+
+
+
+

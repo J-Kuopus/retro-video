@@ -1,0 +1,106 @@
+.label {
+    font-weight: bold;
+}
+
+.profile-back-arrow {
+    font-size: 40px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.profile-back-arrow:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    color: #333;
+    background-color: #fff;
+}
+
+.fav-movie-img {
+    max-width: 15rem !important;
+    height: auto;
+}
+
+.fav-list {
+    padding: 15px;
+}
+
+.profile-card h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.profile-text {
+    padding-bottom: 10px;
+}
+
+.profile-view {
+    background-image: url('../../img/vhs-pic-sm.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-color: #333;
+    background-blend-mode: exclusion;
+    background-attachment: fixed;
+    height: 1400px;
+    padding: 15px 25px;
+    position: relative;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.edit-card {
+    padding: 10px;
+}
+
+.edit-card h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+} 
+
+.edit-form {
+    padding: 15px;
+}
+
+.edit-input {
+    padding-bottom: 20px;
+}
+
+.fav-card {
+    padding: 10px;
+}
+
+.fav-card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.delete-button {
+    width: 150px;
+    margin-left: 15px;
+}
+
+@media all and (max-width: 992px) {
+    .profile-view {
+        background-image: none;
+        background-color: #c9c4c3;
+        margin-top: 70px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .profile-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 570px) {
+   .profile-view {
+    padding: 5px 10px;
+   }
+}

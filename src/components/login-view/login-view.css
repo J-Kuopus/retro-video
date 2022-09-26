@@ -1,0 +1,95 @@
+.login-card {
+    padding: 10px;
+    box-shadow: 4px 4px 6px #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-text {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slogan {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-wrapper {
+    background-color: #c9c4c3;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 6px #333;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.login-form {
+    padding: 15px
+}
+
+.login-input {
+    padding-bottom: 15px;
+}
+
+.login-view {
+    background-image: url('../../img/vhs-pic-sm.jpg');
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333;
+    background-blend-mode: exclusion;
+    background-attachment: local;
+    height: 900px;
+    padding: 50px;
+    position: relative;
+}
+
+@media all and (max-width: 992px) {
+    .login-view {
+        background-attachment: fixed;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .logo-img {
+        width: 250px;
+    }
+
+    .welcome-text {
+        font-size: 24px;
+       
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
+    .login-view {
+        padding: 40px;
+        background-image: none;
+    }
+
+    .login-header {
+        display: none;
+    }
+
+
+}
+
+@media all and (max-width: 380px) {
+    .logo-img {
+        width: 220px;
+    }
+
+    .login-card {
+        padding: 0px;
+    }
+
+    .login-view {
+        padding: 10px;
+        padding-top: 30px;
+    }
+
+}

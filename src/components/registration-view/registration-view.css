@@ -1,0 +1,57 @@
+.registration-view {
+    background-image: url('../../img/vhs-pic-sm.jpg');
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333;
+    background-blend-mode: exclusion;
+    height: 900px;
+    padding: 50px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registration-view h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.reg-card {
+    padding: 10px;
+}
+
+.reg-header {
+    text-align: center;
+}
+
+.reg-form {
+    padding: 15px;
+}
+
+.reg-input {
+    padding-bottom: 20px;
+}
+
+@media all and (max-width: 992px) {
+    .registration-view {
+        background-attachment: fixed;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .reg-card h1 {
+        font-size: 24px;
+    }
+
+    .registration-view {
+        padding: 40px;
+        background-image: none;
+    }
+
+    .reg-form {
+        padding: 10px;
+    }
+
+}

@@ -1,0 +1,33 @@
+.movie-card {
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s;
+    max-width: 300px;
+    height: 100%;
+}
+
+.movie-card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 6px 6px 4px #333;
+}
+
+.card-image {
+    object-fit: cover;
+    height: 100%;
+}
+
+@media all and (max-width: 710px) {
+    .movie-card {
+        margin-left: 10px;
+        margin-right: 10px;
+        max-width: 350px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .movie-card {
+        max-width: 300px;
+    }
+
+}
