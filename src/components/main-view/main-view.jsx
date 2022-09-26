@@ -67,7 +67,7 @@ class MainView extends React.Component {
     const { movies, user } = this.state;
 
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <ScrollToTop />
         <Row className="main-view justify-content-center">
           <Route exact path="/" 
